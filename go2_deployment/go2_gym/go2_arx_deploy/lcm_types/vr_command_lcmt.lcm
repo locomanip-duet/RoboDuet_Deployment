@@ -1,0 +1,4 @@
+struct vr_command_lcmt
+{
+    float ee_pose[6];
+}
