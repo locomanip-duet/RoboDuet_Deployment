@@ -86,6 +86,9 @@ We use Meta Quest 3 to control the end-effector pose of the ARX.
     ```
 3. Setup
     ```bash
+    sudo cp arx_can.rules /etc/udev/rules.d/
+    sudo chmod 777 /etc/udev/rules.d/arx_can.rules
+    
     sh reopen.sh
     sh reopen.sh  # better run twice
     ```
